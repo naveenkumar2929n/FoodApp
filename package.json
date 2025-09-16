@@ -1,8 +1,9 @@
 {
   "name": "foodapp",
   "version": "1.0.0",
-  "main": "app.js",
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -15,5 +16,12 @@
     "url": "https://github.com/naveenkumar2929n/foodApp/issues"
   },
   "homepage": "https://github.com/naveenkumar2929n/foodApp#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
 }
